@@ -3,31 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>choose</title>
+    <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body onload="sellProduct()">
-    <div class="Unit">
-        <div class="Tex">
-            <h1>choose Best</h1>
-            <p>for you home office !</p>
-        </div>
-        <!-- estas duas div's acima estão na primeira linha do display-Grid -->
-        <div class="Pesquisa">
-            <input class="TextProdu" type="text">
-            <a class="searchUrl" href="search.html"><button class="Busca" onclick="search()"><img class="Iconlup" src="icones/LupaPesquisa.png"></button></a>
-        </div>
-        <nav class="Login">
-            <a href="#" class="SignButton">Sign up</a>
-            <a href="#" class="LoginButton">Login</a>
-        </nav>
-        <a href="#" class="usur"></a>
-    </div>
-
-    <h2>Popular products</h2>
+<body onload="verifiction()">
     <section class="Products">
         <div class="airpods">
             <div class="UnitDescription">
@@ -81,19 +60,6 @@
             </div>
         </div>
     </section>
-    <h2>Categorias</h2>
-    <section class="FillProduct">
-        <ul class="Categories">
-            <li><a class="sellProduct" href="#"><img src="icones/monitor_3076345.png" width="35"><p>monitor</p></a></li>
-            <li><a class="sellProduct" href="#"><img src="icones/smartphone_7344131.png" width="35"><p>mobile</p></a></li>
-            <li><a class="sellProduct" href="#"><img src="icones/mouse.png" width="35"><p>mice</p></a></li>
-        </ul>
-    </section>
-
-    <h2 class="TitleRecent">Recently viewed</h2>
-    <div class="recently">
-
-    </div>
-    <script src="index.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>

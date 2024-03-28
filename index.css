@@ -52,6 +52,7 @@ body{
     border: none;
     outline: none;
     background-color: rgba(240, 248, 255, 0);
+    text-indent: 10px;
 }
 .Iconlup{
     width: 1.5vmax;
@@ -69,6 +70,11 @@ body{
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     background-color: rgb(42, 195, 255);
+    transition: .2s;
+    cursor: pointer;
+}
+.Busca:hover{
+    background-color: rgb(0, 155, 216);
 }
 .Login{
     width: 22vmax;
@@ -90,6 +96,13 @@ body{
     background-color: rgb(42, 195, 255);
     width: 7vmax;
     padding: 3%;
+    transition: .2s;
+}
+.LoginButton:hover{
+    background-color: rgb(0, 155, 216);
+}
+.SignButton:hover{
+    background-color: rgb(0, 155, 216);
 }
 
 h2{
