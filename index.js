@@ -1,17 +1,20 @@
 function sellProduct(){
-    const obj={
-        Product1: 'Airpods pro 2',
-        Product2: 'cherry-mouse',
-        Product3: 'teclado ergonomico',
-        Product4: 'Mousepad',
-        Product5: 'mouse'
-    }
+    const obj= [
+        {
+            product1: 'Airpods pro 2'
+        },
+        {
+            product1: 'Mouse ergonomico wireless'
+        },
+        {
+            product1: 'Teclado ergonomico wireless'
+        },
+        {
+            product1: 'Mousepad'
+        }
+    ]
 
-    for(let i in obj){
-        let ch= i.toString()
-        let val= obj[i]
-        localStorage.setItem(ch, val)
-    }
+    let Cotainer= localStorage.setItem('stoque', JSON.stringify(obj))
 }
 
 function search(){
