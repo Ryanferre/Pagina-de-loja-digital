@@ -1,17 +1,49 @@
 function sellProduct(){
     const obj= [
+        [
+            {
+                id: 1,
+                mark: 'Apple',
+                producte: 'Airpods pro 2',
+                description: 'wireless headphones',
+                txt: 'price',
+                price: '$519.99',
+                imag: 'imagens/Airpods pro 2.webp'
+            }
+        ],
+       [
         {
-            product1: 'Airpods pro 2'
-        },
-        {
-            product1: 'Mouse ergonomico wireless'
-        },
-        {
-            product1: 'Teclado ergonomico wireless'
-        },
-        {
-            product1: 'Mousepad'
+            id: 2,
+            mark: 'Cherry',
+            producte: 'cherry-mouse',
+            description: 'Mouse ergonomico wireless',
+            txt: 'price',
+            price: '$99.00',
+            imag: 'imagens/cherry-mouse.png'
         }
+       ],
+        [
+            {
+                id: 3,
+                mark: 'hp',
+                producte: 'teclado ergonomico',
+                description: 'Teclado ergonomico wireless',
+                txt: 'price',
+                price: '$150.00',
+                imag: 'imagens/Teclado ergonomico.png'
+            }
+        ],
+        [
+            {
+                id: 4,
+                mark: 'Plate',
+                producte: 'Mousepad',
+                description: 'Mousepad construido sobre',
+                txt: 'price',
+                price: '$209.00',
+                imag: 'imagens/aluminum-pad(1).png'
+            }
+        ]
     ]
 
     let Cotainer= localStorage.setItem('stoque', JSON.stringify(obj))
