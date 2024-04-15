@@ -1,3 +1,18 @@
+function Movment(){
+    let BoxSearch= document.querySelector('.Pesquisa')
+    let BoxAconlt= document.querySelector('.Login')
+    let BoxUnit= document.querySelector('.Box-Unit')
+    if(BoxUnit.style.top!= '80%'){
+        BoxUnit.style.top= '80%'
+        BoxSearch.style.marginLeft= '0%';
+        BoxAconlt.style.marginLeft= '0%'
+    }else{
+        BoxUnit.style.top= ''
+        BoxAconlt.style.marginLeft= ''
+        BoxSearch.style.marginLeft= ''
+    }
+}
+
 function sellProduct(){
     const obj= [
         [
